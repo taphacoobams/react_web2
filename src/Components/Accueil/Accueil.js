@@ -1,6 +1,6 @@
 import React from 'react';
-import LeftSidebar from './LeftSidebar';
-import Navbar from './Navbar';
+import LeftSidebar from '../Bar/LeftSidebar';
+import Navbar from '../Bar/Navbar';
 
 function App() {
   return (

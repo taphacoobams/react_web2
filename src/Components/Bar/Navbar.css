@@ -17,7 +17,7 @@
   .search-form {
     flex: 1;
     margin: 0 auto;
-    margin-right: 100px;
+    margin-right: 50px;
     text-align: center;
   }
   
@@ -30,11 +30,21 @@
   
   .search-button {
     padding: 5px 5px;
-    border-radius: 5px;
+    border-radius: 50%;
     border: none;
     background-color: #fff;
     color: #333;
     width: 30px;
     cursor: pointer;
+  }
+
+  div.profile{
+    margin-right: 20px;
+  }
+
+  img.profile{
+    width: 40px;
+    height: 40px;
+    border-radius:50%;
   }
   

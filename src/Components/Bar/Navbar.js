@@ -1,5 +1,4 @@
 import React from 'react';
-import { AiOutlineUser } from "react-icons/ai";
 import { AiOutlineSearch } from 'react-icons/ai';
 import { Link } from 'react-router-dom';
 
@@ -7,7 +6,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="image">
-          <img src="logo1.png" alt="Logo" className="logo" />
+      <Link to="/home"><img src="logo1.png" alt="Logo" className="logo" /></Link>
       </div>  
       <div className="search-container"> 
       <form className="search-form">
@@ -16,7 +15,7 @@ function Navbar() {
       </form>        
       </div>
       <div className="profile">
-        <AiOutlineUser size="40px" /><Link to="/profile"></Link>
+        <Link to="/profile"><img src="profile.jpg" alt="profile" className="profile" /></Link>
       </div>    
     </nav>
 

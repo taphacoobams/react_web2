@@ -1,13 +1,11 @@
 import React  from 'react';
 import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
-import Connexion from './Connexion';
-import Inscription from './Inscription';
-import Accueil from './Accueil';
-import Messages from './Messages';
-import Profil from './Profil';
-import Contact from './Contact';
-import Post from './Post';
-import Parametres from './Parametres';
+import Connexion from './Components/Connexion/Connexion';
+import Inscription from './Components/Inscription/Inscription';
+import Accueil from './Components/Accueil/Accueil';
+import Messages from './Components/Messages/Messages';
+import Profil from './Components/Profil/Profil';
+import Post from './Components/Post/Post';
 
 import './App.css';
 
@@ -20,10 +18,8 @@ function App() {
           <Route path="/register" element={<Inscription />} />
           <Route path="/home" element={<Accueil />} />
           <Route path="/messages" element={<Messages />} />
-          <Route path="/profil" element={<Profil />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/profile" element={<Profil />} />
           <Route path="/post" element={<Post />} />
-          <Route path="/settings" element={<Parametres />} />
         </Routes>
       </div>
     </Router>

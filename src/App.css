@@ -1,5 +1,5 @@
-@import url('Connexion.css');
-@import url('Inscription.css');
-@import url('LeftSidebar.css');
-@import url('Navbar.css');
-@import url('Accueil.css');
+@import url('Components/Connexion/Connexion.css');
+@import url('Components/Inscription/Inscription.css');
+@import url('Components/Bar/LeftSidebar.css');
+@import url('Components/Bar/Navbar.css');
+@import url('Components/Accueil/Accueil.css');
